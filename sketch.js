@@ -36,7 +36,7 @@ function draw(){
   }
   if(gameState === 1){
     clear();
-    game.play();
+    game.start();
   }
   if(gameState === 2){
     game.end();
